@@ -1,0 +1,23 @@
+body {
+  margin: 40px;
+}
+
+.input-fields input {
+  max-width: 70px;
+}
+
+.form-control {
+  display: inline-block;
+}
+
+.size-input {
+  margin-left: 50px;
+}
+
+.alert-field {
+  height: 55px;
+}
+
+.alert {
+  max-width: 750px;
+}
