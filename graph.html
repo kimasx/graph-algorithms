@@ -1,0 +1,38 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.js"></script>
+    <script src="http://marvl.infotech.monash.edu/webcola/cola.v3.min.js"></script>
+    <script src="bower_components/greuler/dist/greuler.min.js"></script>
+    <!-- bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </head>
+  
+  <body>
+  <a href="https://github.com/kimasx"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+  <h2>Visualizing Graph Algorithms</h2>
+    <div class="alert-field"></div>
+    <div class="graph-container">
+      <div class="graph"></div>
+    </div>
+    <div class="input-fields">
+      <span class="order-input">Select Order (# of Vertices): <input type="number" class="form-control order" name="order" value="5" min="2" max="15"></span>
+      <span class="size-input">Select Size (# of Edges): <input type="number" class="form-control size" name="size" value="5" min="2" max="15"></span>
+    </div><br>
+    <div class="buttons">
+      <button class="btn btn-primary" id="generate-btn">Generate New Graph</button>
+      <!-- <button class="btn btn-default" id="bfs">Breadth First Search</button>
+      <button class="btn btn-default" id="dfs">Depth First Search</button>
+      <button class="btn btn-default" id="dijkstra">Dijkstra's Algorithm</button> -->
+      <button class="btn btn-default" id="eulerian">Eulerian Path</button>
+    </div>
+  </body>
+  <link rel="stylesheet" href="./main.css">
+  <script src="./euler.js"></script>
+  <script src="./graph.js"></script>
+</html>
