@@ -22,7 +22,7 @@ $('#eulerian').on('click', function() {
 
   // no Eulerian path/cycle if there are vertices of odd degree (except 2 vertices)
   if (count > 0 && count !== 2) {
-    addAlert('danger', 'No Euler path or circuit exists in this graph.');
+    addAlert('danger', 'No Euler path or circuit exists in this graph. Find out why <strong><a href="http://www.whitman.edu/mathematics/cgt_online/section05.02.html">here</a><strong>');
     return false;
   }
   else {
